@@ -1,0 +1,90 @@
+    def button_0_clicked(self):
+        self.dec_ += "0"
+        self.dec.setText(self.dec_)
+        if(self.mark == 1):
+            self.num1 *= 10
+        else:
+            self.num2 *= 10
+    def button_1_clicked(self):
+        self.dec_ += '1'
+        self.dec.setText(self.dec_)
+        if(self.mark == 1):
+            self.num1 *= 10 + 1
+        else:
+            self.num2 *= 10 + 1
+    def button_2_clicked(self):
+        self.dec_ += '2'
+        self.dec.setText(self.dec_)
+        if(self.mark == 1):
+            self.num1 *= 10 + 2
+        else:
+            self.num2 *= 10 + 2
+    def button_3_clicked(self):
+        self.dec_ += '3'
+        self.dec.setText(self.dec_)
+        if(self.mark == 1):
+            self.num1 *= 10 + 3
+        else:
+            self.num2 *= 10 + 3
+    def button_4_clicked(self):
+        self.dec_ += '4'
+        self.dec.setText(self.dec_)
+        if(self.mark == 1):
+            self.num1 *= 10 + 4
+        else:
+            self.num2 *= 10 + 4
+    def button_5_clicked(self):
+        self.dec_ += '5'
+        self.dec.setText(self.dec_)
+        if(self.mark == 1):
+            self.num1 *= 10 + 5
+        else:
+            self.num2 *= 10 + 5
+    def button_6_clicked(self):
+        self.dec_ += '6'
+        self.dec.setText(self.dec_)
+        if(self.mark == 1):
+            self.num1 *= 10 + 6
+        else:
+            self.num2 *= 10 + 6
+    def button_7_clicked(self):
+        self.dec_ += '7'
+        self.dec.setText(self.dec_)
+        if(self.mark == 1):
+            self.num1 *= 10 + 7
+        else:
+            self.num2 *= 10 + 7
+    def button_8_clicked(self):
+        self.dec_ += '8'
+        self.dec.setText(self.dec_)
+        if(self.mark == 1):
+            self.num1 *= 10 + 8
+        else:
+            self.num2 *= 10 + 8
+    def button_9_clicked(self):
+        self.dec_ += '9'
+        self.dec.setText(self.dec_)
+        if(self.mark == 1):
+            self.num1 *= 10 + 9
+        else:
+            self.num2 *= 10 + 9
+    def button_plus_clicked(self):
+        self.mark = 2
+        self.dec_ += '+'
+        self.sign = '+'
+        self.dec.setText(self.dec_)
+    def button_minus_clicked(self):
+        self.mark = 2
+        self.dec_ += '-'
+        self.sign = '-'
+        self.dec.setText(self.dec_)
+    def button_multiply_clicked(self):
+        self.mark = 2
+        self.dec_ += '×'
+        self.sign = '×'
+        self.dec.setText(self.dec_)
+    def button_devide_clicked(self):
+        self.mark = 2
+        self.dec_ += '÷'
+        self.sign = '÷'
+        self.dec.setText(self.dec_) 
